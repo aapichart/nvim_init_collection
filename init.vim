@@ -1,6 +1,8 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
-"Plug 'roxma/nvim-completion-manager'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() }}
+Plug 'junegunn/fzf.vim' 
+Plug 'airblade/vim-rooter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
