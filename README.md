@@ -13,4 +13,7 @@
  5. fd-find - sudo apt install fd-find 
 
  Don't forget to bind the key to zsh shell by using the following link 
+ > source ~/.vim/plugged/fzf/shell/completion.zsh
+ > source ~/.vim/plugged/fzf/shell/key-bindings.zsh
 
+ 
