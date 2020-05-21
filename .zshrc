@@ -136,6 +136,9 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator load background_jobs h
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/home/apichart/miniconda3/bin:$PATH"
 
+#export variable for nvim
+  export MYVIMRC="$HOME/.config/nvim/init.vim" 
+
 #source command for fzf keybinding
 source ~/.vim/plugged/fzf/shell/key-bindings.zsh 
 source ~/.vim/plugged/fzf/shell/completion.zsh

@@ -12,7 +12,7 @@
  4. silversearcher-ag - sudo apt install silversearcher-ag
  5. fd-find - sudo apt install fd-find 
 
- Don't forget to bind the key to zsh shell by using the following link 
+ Don't forget to bind the key to zsh shell 
    source ~/.vim/plugged/fzf/shell/completion.zsh
    source ~/.vim/plugged/fzf/shell/key-bindings.zsh
 
