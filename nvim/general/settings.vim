@@ -49,4 +49,5 @@ if !exists('g:vscode')
   cmap w!! w !sudo tee %
 endif
 
-
+" This will disable startup warning message if nvim is older than version 0.4
+let g:coc_disable_startup_warning=1

@@ -137,8 +137,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export PATH="/home/apichart/miniconda3/bin:$PATH"
 
 #export variable for nvim
-  export MYVIMRC="$HOME/.config/nvim/init.vim" 
-
+  export MYVIMRC=$HOME/.config/nvim/init.vim
+  export PATH=/usr/local/bin:$PATH
 #source command for fzf keybinding
 source ~/.vim/plugged/fzf/shell/key-bindings.zsh 
 source ~/.vim/plugged/fzf/shell/completion.zsh
