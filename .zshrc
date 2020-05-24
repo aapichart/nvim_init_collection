@@ -140,5 +140,5 @@ export PATH="/home/apichart/miniconda3/bin:$PATH"
   export MYVIMRC=$HOME/.config/nvim/init.vim
   export PATH=/usr/local/bin:$PATH
 #source command for fzf keybinding
-source ~/.vim/plugged/fzf/shell/key-bindings.zsh 
-source ~/.vim/plugged/fzf/shell/completion.zsh
+source ~/.config/nvim/autoload/plugged/fzf/shell/key-bindings.zsh
+source ~/.config/nvim/autoload/plugged/fzf/shell/completion.zsh 

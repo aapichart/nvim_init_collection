@@ -44,7 +44,6 @@ if !exists('g:vscode')
   " au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
   autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
-
   " You can't stop me
   cmap w!! w !sudo tee %
 endif
