@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Better Comments
   Plug 'tpope/vim-commentary'
   " Have the file system follow you around
-  Plug 'preservim/nerdcommenter'
+  " Plug 'preservim/nerdcommenter'
   Plug 'airblade/vim-rooter'
   " auto set indent settings
   Plug 'tpope/vim-sleuth'
@@ -53,6 +53,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'vim-airline/vim-airline-themes'
     " Ranger
     Plug 'francoiscabrol/ranger.vim'
+    Plug 'rbgrouleff/bclose.vim'
     " Terminal
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " FZF
