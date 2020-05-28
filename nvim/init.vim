@@ -1,8 +1,8 @@
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
+source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/general/paths.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/keys/which-key.vim 
 
 " Source depending on if VSCode is our client
@@ -19,7 +19,7 @@ else
   source $HOME/.config/nvim/plug-config/nerd-commenter.vim
   source $HOME/.config/nvim/plug-config/rainbow.vim
   source $HOME/.config/nvim/plug-config/ranger.vim
-  source $HOME/.config/nvim/plug-config/quickscope.vim
+  "source $HOME/.config/nvim/plug-config/quickscope.vim
   source $HOME/.config/nvim/plug-config/vim-wiki.vim
   source $HOME/.config/nvim/plug-config/sneak.vim
   "source $HOME/.config/nvim/plug-config/coc.vim

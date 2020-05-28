@@ -32,7 +32,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   else
     " Text Navigation
     Plug 'justinmk/vim-sneak'
-    Plug 'unblevable/quick-scope'
+    "Plug 'unblevable/quick-scope'
     Plug 'junegunn/rainbow_parentheses.vim'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
