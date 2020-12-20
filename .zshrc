@@ -77,6 +77,7 @@ plugins=(
   tmuxinator
   bundler
   osx
+  virtualenv
   systemd
   zsh-completions
   zsh-autosuggestions
@@ -129,7 +130,7 @@ export PATH=$HOME"/coder:$PATH"
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(anaconda nodeenv ip ssh context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator load background_jobs history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv root_indicator load background_jobs history time)
 
 
 
@@ -142,3 +143,7 @@ export PATH="/home/apichart/miniconda3/bin:$PATH"
 #source command for fzf keybinding
 source ~/.config/nvim/autoload/plugged/fzf/shell/key-bindings.zsh
 source ~/.config/nvim/autoload/plugged/fzf/shell/completion.zsh 
+
+alias python=python3
+eval "$(pipenv  --completion)"
+
